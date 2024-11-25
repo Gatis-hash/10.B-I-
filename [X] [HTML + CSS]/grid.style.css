@@ -1,0 +1,56 @@
+#main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 5px;
+    background-color: white;
+}
+
+#main-container > div{
+    border-radius: 3px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+#item1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: bisque;
+}
+#item2{
+
+    background-color: antiquewhite;
+}
+#item3{
+
+    background-color: beige;
+}
+#item4{
+
+    background-color: wheat;
+
+}
+    
+#item5{
+    background-color: black;
+}
+#item6{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: darksalmon;
+}
+#item7{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: burlywood;
+}
+#item8{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: palegoldenrod;
+}
+#item9{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: peachpuff;
+}
