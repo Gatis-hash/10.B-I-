@@ -10,6 +10,12 @@
         console.log(user_surname);
         console.log(user_age);
 
+        if(!user_name.value.match (/[A-z]/)) || user_name.value == ""
+        {
+            alert(error: name is not correct!);
+        }
+
+
         if(user_age.value == "" || user_age.value <= 0 || !user_age.value.match(/[0-9]/))
         {
             alert("Error: age is not correct!");
@@ -27,4 +33,6 @@
         cell1.innerHTML = user_name.value;
         cell2.innerHTML = user_surname.value;
         cell3.innerHTMl = user_age.value;
+        
+    
     }
